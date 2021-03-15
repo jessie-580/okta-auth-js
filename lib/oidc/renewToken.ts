@@ -49,7 +49,7 @@ export function renewToken(sdk, token: Token): Promise<Token> {
           authorizeUrl,
           userinfoUrl,
           issuer
-        })
+        });
       }
     })
     .then(function (res) {
